@@ -1,0 +1,314 @@
+/* ----------------------------------- *\
+			inputs elements styles
+\* ----------------------------------- */
+.form-input[placeholder] {
+    text-overflow: ellipsis;
+}
+.form-input {
+
+}
+textarea.form-input {
+
+}
+select.form-input {
+    display: block;
+    width: 100%;
+    padding-right: 30px;
+    background-image: url(../img/icons/arrow-select.svg);
+    background-position: right 20px center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    appearance: none!important;
+    line-height: 1em;
+    text-indent: 0.01px;
+    text-overflow: '';
+    outline: none;
+    &.form-input-clear {
+        height: auto;
+        border: none;
+        min-height: 0;
+        border-radius: 0;
+        box-shadow: none;
+        width: auto;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1em;
+        line-height: inherit;
+        padding: 0 16px 0 0;
+        color: inherit;
+        font-weight: bold;
+        background-image: url(../img/icons/arrow-select.png);
+        background-size: 8px auto;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+}
+select::-ms-expand {
+    display: none;
+}
+//   <select class="form-input form-input-line" required>
+//       <option value="" disabled selected hidden>Выбрать</option>
+//       <option>Пункт списка</option>
+//   </select>
+select.form-input:required:invalid {
+    color: #ADADAD;
+}
+.btn {
+    height: 51px;
+    border-radius: 26px;
+    background: var(--clr-att);
+    border: 1px solid var(--clr-att);
+    padding: 0 29px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    box-shadow: 0px 6px 20px rgba(27, 72, 90, 0.36);
+    &:hover {
+        background: var(--clr-att-hover);
+        border-color: var(--clr-att-hover);
+        color: #fff;
+    }
+    &.button-tag {
+        height: 31px;
+        border: 1px solid #81949D;
+        border-radius: 7px;
+        padding: 0 14px;
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--clr-title);
+        background: none;
+        box-shadow: none;
+        &:hover, &.active {
+            color: var(--clr-att);
+            background: none;
+            border-color: var(--clr-att);
+        }
+    }
+    &.button-main {
+        height: 36px;
+        border-radius: 5px;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        box-shadow: none;
+        .button-ico {
+            width: 18px;
+            height: 18px;
+            margin: 0 5px 0 0;
+            &:last-child {
+                margin: 0 0 0 5px;
+            }
+        }
+        &.button-border {
+            &:not(:hover) {
+                background-color: transparent;
+                color: var(--clr-title);
+            }
+        }
+    }
+    &.button-second {
+        &:not(:hover) {
+            background-color: var(--clr-title);
+            border-color: var(--clr-title);
+        }
+    }
+    &.button-border {
+        &:not(:hover) {
+            background-color: transparent;
+            color: #231f20;
+            .button-ico {
+                filter: none;
+            }
+        }
+        &:hover, &.active {
+            background-color: var(--clr-att);
+            border-color: var(--clr-att);
+            .button-ico {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+    .button-ico {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
+        transition: all ease 0.2s;
+        filter: brightness(0) invert(1);
+        &:last-child {
+            margin-right: 0;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+.btn-action-ico {
+    min-width: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 40px;height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    transition: all ease 0.2s;
+    flex-shrink: 0;
+    &:not(.btn) {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    &.btn {
+        min-width: 0;
+        min-height: 0;
+        padding: 0;
+        display: block;
+    }
+    &:before, &:after, [class*="icon-"], img, svg {
+        display: block;
+        position: absolute;
+        top: 0;bottom: 0;left: 0;right: 0;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        transition: all ease 0.2s;
+    }
+    img, svg {
+        max-width: 24px;
+        max-height: 24px;
+    }
+    &:before, &:after {
+        content: "";
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 24px auto;
+    }
+    &:hover {
+        text-decoration: none;
+        &:not(.btn) {
+            background: none;
+            box-shadow: none;
+        }
+    }
+    &.ico-arrow {
+        z-index: 20;
+        cursor: pointer;
+        &:before {
+            background-image: url(../img/icons/arrow-slider.svg);
+            background-size: 14px auto;
+        }
+        &:hover {
+        }
+    }
+    &.ico-arrow-prev {
+        &:before {
+            .t-rotate(180deg);
+        }
+    }
+    &.ico-search {
+        &:before {
+            background-image: url(../img/icons/search.svg);
+        }
+    }
+    &.ico-user {
+        &:before {
+            background-image: url(../img/icons/user.svg);
+        }
+    }
+    &.ico-menu {
+        &:before {
+            background-image: url(../img/icons/menu.svg);
+        }
+    }
+    &.ico-close {
+        &:after, &:before {
+            width: 20px;
+            height: 2px;
+            top: 50%;
+            left: 50%;
+            bottom: auto;
+            right: auto;
+            margin: -1px 0 0 -10px;
+            background: var(--clr-base);
+        }
+        &:before {
+            .t-rotate(45deg);
+        }
+        &:after {
+            .t-rotate(-45deg);
+        }
+    }
+    &.button-header {
+        width: 28px;
+        height: 28px;
+        background: var(--clr-bg);
+        border-radius: 8px;
+        line-height: 28px;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: var(--clr-base);
+        &:before, img, svg {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        &:hover, &.active {
+            color: #fff;
+            background-color: var(--clr-att);
+            &:before, img, svg {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+    &.button-soc {
+        img, svg {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .btn {
+        &.button-tag {
+            height: 36px;
+            padding: 0 16px;
+            font-size: 16px;
+        }
+        &.button-main {
+            height: 45px;
+            font-size: 14px;
+            .button-ico {
+                width: 24px;
+                height: 24px;
+                margin-right: 10px;
+                &:last-child {
+                    margin: 0 0 0 10px;
+                }
+            }
+        }
+    }
+    .btn-action-ico {
+        &.button-header {
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+        }
+        &.ico-search {
+            &:before {
+                background-size: 30px auto;
+            }
+        }
+    }
+}
