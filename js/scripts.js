@@ -26,6 +26,13 @@ $(document).ready(function(){
     }
     
     
+    //header menu
+    $('.header .action-menu .button-header').on('click', function() {
+        $('.popup-menu-wrap .js-btn-toggle').addClass('active');
+        return false;
+    })
+    
+    
     //phone show
     $('.tile-info-row .tile-ico-link').on('click', function() {
         $(this).parents('.tile-info-row').addClass('active');

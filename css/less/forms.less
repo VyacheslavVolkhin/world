@@ -1,6 +1,32 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-main-search {
+    display: block;
+    position: relative;
+    padding: 0 42px 0 0;
+    .form-input {
+        height: 52px;
+        background: #fff;
+        padding: 0 40px 0 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        color: var(--clr-base);
+    }
+    .btn-action-ico.button-header {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 50%;
+        right: 57px;
+        margin-top: -16px;
+        z-index: 3;
+        &.ico-close {
+            right: 0;
+        }
+    }
+}
 .frm-row,
 .frm-field,
 .frm-row-submit {
