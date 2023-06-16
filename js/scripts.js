@@ -200,8 +200,8 @@ $(document).ready(function(){
 
 
     //gallery-slider-box
-    if (!!$('.gallery-slider-box').offset()) {
-        $('.gallery-slider-box .slider').slick({
+    if (!!$('.gallery-slider-box.slider-full').offset()) {
+        $('.gallery-slider-box.slider-full .slider').slick({
             dots: true,
             slidesToShow: 9,
             variableWidth: false,
@@ -257,6 +257,116 @@ $(document).ready(function(){
             ]
         });
     }
+    //gallery-slider-box
+    if (!!$('.gallery-slider-box.slider-content').offset()) {
+        $('.gallery-slider-box.slider-content .slider').slick({
+            dots: true,
+            slidesToShow: 7,
+            variableWidth: false,
+            infinite: false,
+            adaptiveHeight: false,
+            rows: 1,
+            swipeToSlide: true,
+            prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+            nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
+            responsive: [
+                {
+                    breakpoint: 1600,
+                    settings: {
+                        slidesToShow: 6,
+                    }
+                },
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 5,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 5,
+                        variableWidth: true,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4,
+                        variableWidth: true,
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 3,
+                        variableWidth: true,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        variableWidth: true,
+                    }
+                },
+            ]
+        });
+    }
+
+
+    //actions-tiles-box
+    if (!!$('.actions-tiles-box').offset()) {
+        $('.actions-tiles-box .slider').slick({
+            dots: false,
+            slidesToShow: 1,
+            variableWidth: false,
+            infinite: true,
+            adaptiveHeight: false,
+            rows: 1,
+            swipeToSlide: true,
+            prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+            nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        dots: true,
+                        infinite: false,
+                    }
+                },
+            ]
+        });
+    }
+    //actions-tiles-slider-box
+    if (!!$('.actions-tiles-slider-box').offset()) {
+        $('.actions-tiles-slider-box .slider').slick({
+            dots: true,
+            slidesToShow: 1,
+            variableWidth: false,
+            infinite: true,
+            adaptiveHeight: true,
+            rows: 1,
+            swipeToSlide: true,
+            prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+            nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        dots: true,
+                        infinite: false,
+                    }
+                },
+            ]
+        });
+    }
 
 
     //tags-slider-box
@@ -265,7 +375,7 @@ $(document).ready(function(){
             dots: false,
             slidesToShow: 1,
             variableWidth: true,
-            infinite: true,
+            infinite: false,
             adaptiveHeight: false,
             rows: 1,
             swipeToSlide: true,
@@ -278,6 +388,32 @@ $(document).ready(function(){
                         dots: true,
                         slidesToShow: 10,
                         infinite: false,
+                    }
+                },
+            ]
+        });
+    }
+
+
+    //calendar-slider-box
+    if (!!$('.calendar-slider-box').offset()) {
+        $('.calendar-slider-box .slider').slick({
+            dots: false,
+            slidesToShow: 31,
+            variableWidth: false,
+            infinite: false,
+            adaptiveHeight: false,
+            rows: 1,
+            swipeToSlide: true,
+            prevArrow: false,
+            nextArrow: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+                        nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
                     }
                 },
             ]

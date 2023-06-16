@@ -1,6 +1,54 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-field-title {
+    display: block;
+    font-size: 16px;
+    line-height: 1.35;
+    font-weight: bold;
+    color: var(--clr-title);
+    margin: 0 0 10px 0;
+    .ft;
+}
+.frm-field-input {
+    position: relative;
+    line-height: 1;
+    .field-input-title {
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 0;
+        right: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 10px;
+        line-height: 1.15;
+        font-weight: 400;
+        z-index: 2;
+        pointer-events: none;
+        padding-left: 10px;
+        padding-right: 5px;
+        color: var(--clr-title);
+        &~.form-input {
+            height: 48px;
+            padding-top: 16px;
+        }
+    }
+    .frm-ico {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        margin: -10px 0 0 -10px;
+        z-index: 2;
+        pointer-events: none;
+        &~.form-input, &~.field-input-title {
+            padding-left: 40px;
+        }
+    }
+}
 .frm-main-search {
     display: block;
     position: relative;
@@ -34,12 +82,15 @@
     flex-wrap: wrap;
 	position: relative;
 	line-height: 1;
+    margin: 0 -5px;
 }
 .frm-field {
     display: block;
     width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0 5px;
 }
-.frm-select {
+.frm-select, .frm-select-main {
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -63,4 +114,171 @@
             position: absolute;
         }
 	}
+}
+.frm-select-main, .frm-select {
+    font-size: 14px;
+    line-height: 1.25;
+    color: var(--clr-title);
+    position: relative;
+    display: block;
+    label {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        max-width: 100%;
+        padding: 7px 10px 7px 38px;
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid #E6E6E6;
+        &:before, &:after {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 1px solid #81949D;
+            position: absolute;
+            top: 50%;
+            left: 19px;
+            margin: -9px 0 0 -9px;
+        }
+        &:after {
+            width: 10px;
+            height: 10px;
+            border: none;
+            background: var(--clr-att);
+            opacity: 0;
+            margin: -5px 0 0 -5px;
+        }
+    }
+    input {
+        &:checked {
+            &~label {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .elm-ico {
+        width: 39px;
+        height: 39px;
+        flex-shrink: 0;
+    }
+    .lbl-title {
+        display: block;
+        padding-left: 10px;
+    }
+}
+.frm-select {
+    label {
+        display: block;
+        background: none;
+        border-radius: 0;
+        border: none;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 4px 0 0 34px;
+        min-height: 24px;
+        &:before, &:after {
+            top: 12px;
+            left: 12px;
+        }
+        &:before {
+            width: 24px;
+            height: 24px;
+            margin: -12px 0 0 -12px;
+        }
+        &:after {
+            width: 16px;
+            height: 16px;
+            margin: -8px 0 0 -8px;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .frm-field-input {
+        .field-input-title {
+            font-size: 12px;
+            top: 16px;
+            padding-left: 12px;
+            &~.form-input {
+                height: 75px;
+                padding-top: 22px;
+            }
+        }
+        .frm-ico {
+            width: 28px;
+            height: 28px;
+            left: 26px;
+            margin: -14px 0 0 -14px;
+            img, svg {
+                width: 100%;
+            }
+            &~.form-input, &~.field-input-title {
+                padding-left: 56px;
+            }
+        }
+    }
+    .frm-row, .frm-row-submit {
+        margin-left: -8px;
+        margin-right: -7px;
+    }
+    .frm-field {
+        padding-left: 8px;
+        padding-right: 7px;
+        margin-bottom: 3rem;
+    }
+    .frm-field-title {
+        font-size: 2.4rem;
+        line-height: 1.25;
+        margin: 0 0 15px 0;
+    }
+    .frm-select-main {
+        font-size: 16px;
+        label {
+            padding: 15px 23px 15px 78px;
+            &:before, &:after {
+                left: 39px;
+            }
+            &:before {
+                width: 30px;
+                height: 30px;
+                margin: -15px 0 0 -15px;
+            }
+            &:after {
+                width: 18px;
+                height: 18px;
+                margin: -9px 0 0 -9px;
+            }
+        }
+        .lbl-title {
+            padding-left: 24px;
+        }
+    }
+    .frm-select {
+        label {
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 5px;
+            min-height: 30px;
+            padding-left: 45px;
+            &:before, &:after {
+                top: 15px;
+                left: 15px;
+            }
+            &:before {
+                width: 30px;
+                height: 30px;
+                margin: -15px 0 0 -15px;
+            }
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .frm-select-main {
+        font-size: 20px;
+        .elm-ico {
+            width: 48px;
+            height: 48px;
+        }
+    }
 }

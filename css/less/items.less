@@ -1,6 +1,104 @@
 /* ----------------------------------- *\
 			items styles
 \* ----------------------------------- */
+.item-tile-action-top {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    .tile-photo.photo-cover {
+        border-radius: 8px;
+        &:before {
+            padding-top: 27.5%;
+        }
+    }
+    .tile-photo-decor {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        img {
+            width: auto;
+            height: 100%;
+            margin: 0;
+        }
+    }
+}
+.item-tile-action-main {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    .tile-photo {
+        border-radius: 12px;
+        &:before {
+            padding-top: 46.875%;
+        }
+        &.photo-att {
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 2;
+                border-radius: 12px;
+                border: 1px solid #FF81F0;
+            }
+        }
+    }
+}
+.item-tile-day {
+    display: block;
+    height: 42px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 7px;
+    max-width: 34px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--clr-base);
+    transition: all ease 0.2s;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 12px;
+    cursor: pointer;
+    &.day-active {
+        &:before {
+            opacity: 1;
+        }
+    }
+    &:hover, &.active {
+        background: var(--clr-att);
+        color: #fff;
+        &:before {
+            background: fade(#fff, 50);
+        }
+    }
+    .day-title {
+        display: block;
+        font-size: 14px;
+        line-height: 1;
+    }
+    &:before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+        position: absolute;
+        left: 50%;
+        top: 5px;
+        margin-left: -2px;
+        transition: all ease 0.2s;
+        background: fade(#4FB6B0, 50);
+        opacity: 0;
+    }
+}
 .item-tile-gallery {
     display: block;
     position: relative;
@@ -10,9 +108,60 @@
     color: var(--clr-base);
     &:hover {
         color: var(--clr-base);
+        .tile-action-wrap {
+            opacity: 1;
+        }
+    }
+    .tile-action-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 7px;
+        transform: translateZ(0);
+        background: fade(#000, 60);
+        opacity: 0;
+        transition: opacity ease 0.2s;
+        z-index: 3;
+        .btn {
+            &.button-main {
+                height: 36px;
+                border-radius: 5px;
+                padding: 0 12px;
+                font-size: 12px;
+                &.button-large {
+                    height: 45px;
+                    font-size: 14px;
+                    padding: 0 34px;
+                    .button-ico {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                &.button-border {
+                    &:not(:hover) {
+                        color: #fff;
+                    }
+                }
+                .button-ico {
+                    width: 16px;
+                    height: 16px;
+                    filter: brightness(0) invert(1);
+                    &:last-child {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
     }
     .tile-photo-wrap {
         display: block;
+        position: relative;
+        overflow: hidden;
     }
     .tile-info-wrap {
         display: block;
@@ -630,6 +779,12 @@
     }
 }
 @media (min-width: 1024px) {
+    .item-tile-action-top {
+        padding-left: 54px;
+        .tile-photo.photo-cover {
+            height: 120px;
+        }
+    }
     .item-tile-gallery {
         font-size: 12px;
         line-height: 1.25;
@@ -663,6 +818,13 @@
         }
         .tile-tags-wrap {
             margin-bottom: 10px;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .item-tile-action-top {
+        .tile-photo.photo-cover {
+            height: 180px;
         }
     }
 }

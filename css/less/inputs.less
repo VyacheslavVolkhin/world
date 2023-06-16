@@ -5,18 +5,29 @@
     text-overflow: ellipsis;
 }
 .form-input {
-
+    border: 1px solid rgba(220, 233, 239, 0.5);
+    background: rgba(220, 233, 239, 0.5);
+    border-radius: 8px;
+    height: 44px;
+    font-size: 12px;
+    color: var(--clr-base);
+    line-height: 1.25;
+    padding: 0 9px;
+    position: relative;
+    overflow: hidden;
 }
 textarea.form-input {
-
+    height: 173px;
+    padding-top: 9px;
 }
 select.form-input {
+    cursor: pointer;
     display: block;
     width: 100%;
     padding-right: 30px;
     background-image: url(../img/icons/arrow-select.svg);
-    background-position: right 20px center;
-    background-color: #fff;
+    background-position: right 10px center;
+    background-size: 28px auto;
     background-repeat: no-repeat;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -56,6 +67,10 @@ select::-ms-expand {
 select.form-input:required:invalid {
     color: #ADADAD;
 }
+[placeholder]::-webkit-input-placeholder {color: #000;}
+[placeholder]:-moz-placeholder {color: #000;}
+[placeholder]::-moz-placeholder {color: #000;}
+[placeholder]:-ms-input-placeholder {color: #000;}
 .btn {
     height: 51px;
     border-radius: 26px;
@@ -66,6 +81,23 @@ select.form-input:required:invalid {
     color: #fff;
     font-weight: 400;
     box-shadow: 0px 6px 20px rgba(27, 72, 90, 0.36);
+    &.button-form {
+        height: 44px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: rgba(220, 233, 239, 0.5);
+        border: 1px solid rgba(220, 233, 239, 0.5);
+        box-shadow: none;
+        min-width: 0;
+        &:hover {
+            background: rgba(220, 233, 239, 1);
+            border-color: rgba(220, 233, 239, 1);
+        }
+        &.btn-action-ico {
+            width: 44px;
+            padding: 0;
+        }
+    }
     &:hover {
         background: var(--clr-att-hover);
         border-color: var(--clr-att-hover);
@@ -198,6 +230,11 @@ select.form-input:required:invalid {
             box-shadow: none;
         }
     }
+    &.ico-plus {
+        &:before {
+            background-image: url(../img/icons/plus.svg);
+        }
+    }
     &.ico-arrow {
         z-index: 20;
         cursor: pointer;
@@ -281,7 +318,21 @@ select.form-input:required:invalid {
     }
 }
 @media (min-width: 1024px) {
+    .form-input {
+        height: 60px;
+        padding-left: 12px;
+        font-size: 16px;
+    }
+    textarea.form-input {
+        padding-top: 15px;
+    }
     .btn {
+        &.button-form {
+            height: 60px;
+            &.btn-action-ico {
+                width: 60px;
+            }
+        }
         &.button-tag {
             height: 36px;
             padding: 0 16px;
