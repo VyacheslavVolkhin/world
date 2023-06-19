@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/swipebox.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
 </head>
@@ -26,7 +27,11 @@
                 <div class="cnt-box">
                     <div class="logo-wrap">
                         <a href="" class="logo">
-                            <img src="./img/main/logo.svg" alt="">
+                            <picture class="elm-photo">
+                                <source srcset="./img/main/logo-light.svg" media="(max-width: 1023px)">
+                                <source srcset="./img/main/logo.svg" media="">
+                                <img src="./img/main/logo.svg" alt="" />
+                            </picture>
                         </a>
                         <div class="logo-title">Поделись впечатлениями и&nbsp;опытом</div>
                     </div>
@@ -98,7 +103,7 @@
                     <div class="cnt-box">
                         <div class="logo-wrap">
                             <a href="" class="logo">
-                                <img src="./img/main/logo-footer.svg" alt="">
+                                <img src="./img/main/logo-light.svg" alt="">
                             </a>
                             <div class="logo-title">Поделись впечатлениями и&nbsp;опытом</div>
                         </div>
@@ -149,6 +154,8 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.ui.touch-punch.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/jquery.swipebox.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/scripts.js"></script>

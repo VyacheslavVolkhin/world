@@ -15,6 +15,10 @@
     padding: 0 9px;
     position: relative;
     overflow: hidden;
+    &.form-input-light {
+        background-color: #fff;
+        border-color: #fff;
+    }
 }
 textarea.form-input {
     height: 173px;
@@ -81,6 +85,30 @@ select.form-input:required:invalid {
     color: #fff;
     font-weight: 400;
     box-shadow: 0px 6px 20px rgba(27, 72, 90, 0.36);
+    &.button-content {
+        height: 38px;
+        border-radius: 5px;
+        padding: 0 3rem;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: none;
+    }
+    &.button-link {
+        text-decoration: underline;
+        border-radius: 0;
+        border: none;
+        background: none;
+        box-shadow: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: var(--clr-att);
+        &:hover {
+            border: none;
+            background: none;
+            color: var(--clr-att-hover);
+            text-decoration: underline;
+        }
+    }
     &.button-form {
         height: 44px;
         flex-shrink: 0;
@@ -315,6 +343,44 @@ select.form-input:required:invalid {
         &:hover {
             opacity: 0.8;
         }
+    }
+}
+.btn-action-toggle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 28px;
+    padding: 0 30px 0 0;
+    color: var(--clr-title);
+    .button-ico {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        margin: 0 10px 0 0;
+    }
+    .button-title {
+        display: block;
+    }
+    &:before {
+        content: "";
+        display: block;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        background: url(../img/icons/arrow-toggle-small.svg) center no-repeat;
+        background-size: 100% auto;
+        top: 50%;
+        right: 0;
+        margin-top: -14px;
+        transition: all ease 0.2s;
+    }
+    &.active {
+        &:before {
+            .t-rotate(180deg);
+        }
+    }
+    &:hover {
+        color: var(--clr-title);
     }
 }
 @media (min-width: 1024px) {

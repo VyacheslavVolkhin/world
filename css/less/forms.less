@@ -1,6 +1,75 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-field-range {
+    padding-top: 6px;
+    .field-range-slider {
+        padding: 0 8px;
+        max-width: 320px;
+    }
+    .field-range-title {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        line-height: 15px;
+        height: 15px;
+        color: #81949D;
+        z-index: 2;
+        pointer-events: none;
+        padding: 0 0 0 15px;
+    }
+    .field-range-wrap {
+        display: flex;
+        margin-top: 15px;
+        height: 65px;
+        border: 1px solid #81949D;
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden;
+    }
+    .field-range {
+        display: block;
+        position: relative;
+        width: 50%;
+        flex-shrink: 0;
+        &:first-child {
+            border-right: 1px solid #81949D;
+        }
+    }
+    .form-input {
+        height: 64px;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+        background: none;
+        padding: 18px 10px 0 14px;
+        font-size: 16px;
+        color: var(--clr-base);
+    }
+    .ui-slider {
+        height: 3px;
+        border-radius: 2px;
+        background: var(--clr-title);
+        .ui-slider-range {
+            background: var(--clr-att);
+            border-radius: 2px;
+        }
+        .ui-slider-handle {
+            width: 16px;
+            height: 16px;
+            outline: none;
+            border-radius: 50%;
+            background: #fff;
+            border: 1px solid #81949D;
+            cursor: pointer;
+            top: 0;
+            margin-top: -7px;
+            margin-left: -8px;
+        }
+    }
+}
 .frm-field-title {
     display: block;
     font-size: 16px;
@@ -90,7 +159,7 @@
     margin: 0 0 10px 0;
     padding: 0 5px;
 }
-.frm-select, .frm-select-main {
+.frm-select, .frm-select-main, .frm-select-content, .frm-select-button {
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -191,6 +260,89 @@
             width: 16px;
             height: 16px;
             margin: -8px 0 0 -8px;
+        }
+    }
+}
+.frm-select-content {
+    label {
+        padding-left: 37px;
+        padding-top: 2px;
+        font-size: 14px;
+        line-height: 18px;
+        min-height: 22px;
+        position: relative;
+        &:before, &:after {
+            content: "";
+            display: block;
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            top: 11px;
+            left: 11px;
+            margin: -11px 0 0 -11px;
+        }
+        &:before {
+            border-radius: 3px;
+            border: 1px solid #81949D;
+        }
+        &:after {
+            background: url(../img/icons/chk.svg) center no-repeat;
+            background-size: 12px auto;
+            opacity: 0;
+        }
+    }
+    input {
+        &:checked {
+            &~label {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.frm-select-button {
+    label {
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        height: 33px;
+        border: 1px solid #81949D;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        justify-content: center;
+        transition: all ease 0.2s;
+        &:hover {
+            background-color: var(--clr-title);
+            border-color: var(--clr-title);
+            color: #fff;
+        }
+    }
+    input {
+        &:checked {
+            &~label {
+                border-color: var(--clr-title);
+                background: var(--clr-title);
+                color: #fff;
+            }
+        }
+    }
+}
+.frm-field-select-panel {
+    display: flex;
+    .frm-select-button {
+        flex: 1;
+        width: auto;
+        &:first-child {
+            label {
+                border-right: none;
+                border-radius: 4px 0 0 4px;
+            }
+        }
+        &:last-child {
+            label {border-radius: 0 4px 4px 0;}
         }
     }
 }

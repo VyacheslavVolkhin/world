@@ -20,6 +20,14 @@ $(document).ready(function(){
 	  return this;
 	};
 
+    
+    //filter
+    $('.js-filter-toggle').on('click', function() {
+        $('body').toggleClass('filter-show');
+        return false;
+    })
+    
+    
     //swipebox
     if (!!$('[data-swipebox]').offset()) {
         $('[data-swipebox]').swipebox();
@@ -418,6 +426,132 @@ $(document).ready(function(){
                 },
             ]
         });
+    }
+
+
+    //side-tiles-box
+    if (!!$('.side-tiles-box').offset()) {
+        $('.side-tiles-box .slider').slick({
+            dots: true,
+            slidesToShow: 2,
+            variableWidth: false,
+            infinite: true,
+            adaptiveHeight: false,
+            rows: 1,
+            swipeToSlide: true,
+            prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+            nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+            ]
+        });
+    }
+
+
+    //#price
+    if (!!$('#price-slider').offset()) {
+        $('#price-slider').slider({
+            range: true,
+            min: 20000,
+            max: 350000,
+            values: [20000, 200000],
+            slide: function (event, ui) {
+                $('#price-min').val(ui.values[0]);
+                $('#price-max').val(ui.values[1]);
+            }
+        })
+        $('#price-min').val($('#price-slider').slider('values', 0));
+        $('#price-max').val($('#price-slider').slider('values', 1));
+        $('#price-min').bind('focusout', function () {
+            if ($(this).val() > $('#price-slider').slider('values', 1)) {
+                $(this).val($('#price-slider').slider('values', 0));
+            }
+            $('#price-slider').slider('values', 0, $(this).val());
+        })
+        $('#price-max').bind('focusout', function () {
+            if ($(this).val() < $('#price-slider').slider('values', 0)) {
+                $(this).val($('#price-slider').slider('values', 1));
+            }
+            $('#price-slider').slider('values', 1, $(this).val());
+        })
+        $('#price-min').bind('keypress', function (e) {
+            if (e.keyCode == 13) {
+                if ($(this).val() > $('#price-slider').slider('values', 1)) {
+                    $(this).val($('#price-slider').slider('values', 0));
+                }
+                $('#price-slider').slider('values', 0, $(this).val());
+            }
+        })
+        $('#price-max').bind('keypress', function (e) {
+            if (e.keyCode == 13) {
+                if ($(this).val() < $('#price-slider').slider('values', 0)) {
+                    $(this).val($('#price-slider').slider('values', 1));
+                }
+                $('#price-slider').slider('values', 1, $(this).val());
+            }
+        })
+        $('#widget').draggable();
+    }
+    //#period-slider
+    if (!!$('#period-slider').offset()) {
+        $('#period-slider').slider({
+            range: true,
+            min: 2,
+            max: 30,
+            values: [2, 10],
+            slide: function (event, ui) {
+                $('#period-min').val(ui.values[0]);
+                $('#period-max').val(ui.values[1]);
+            }
+        })
+        $('#period-min').val($('#period-slider').slider('values', 0));
+        $('#period-max').val($('#period-slider').slider('values', 1));
+        $('#period-min').bind('focusout', function () {
+            if ($(this).val() > $('#period-slider').slider('values', 1)) {
+                $(this).val($('#period-slider').slider('values', 0));
+            }
+            $('#period-slider').slider('values', 0, $(this).val());
+        })
+        $('#period-max').bind('focusout', function () {
+            if ($(this).val() < $('#period-slider').slider('values', 0)) {
+                $(this).val($('#period-slider').slider('values', 1));
+            }
+            $('#period-slider').slider('values', 1, $(this).val());
+        })
+        $('#period-min').bind('keypress', function (e) {
+            if (e.keyCode == 13) {
+                if ($(this).val() > $('#period-slider').slider('values', 1)) {
+                    $(this).val($('#period-slider').slider('values', 0));
+                }
+                $('#period-slider').slider('values', 0, $(this).val());
+            }
+        })
+        $('#period-max').bind('keypress', function (e) {
+            if (e.keyCode == 13) {
+                if ($(this).val() < $('#period-slider').slider('values', 0)) {
+                    $(this).val($('#period-slider').slider('values', 1));
+                }
+                $('#period-slider').slider('values', 1, $(this).val());
+            }
+        })
+        $('#widget').draggable();
     }
 	
 });
