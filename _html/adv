@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <!-- build:section head -->
+    <!-- /build -->
+    <body>
+        <!-- wrap -->
+        <div class="wrap wrap-menu">
+	
+			<!--header-panel-wrap-->
+			<div class="header-panel-wrap">
+				<!-- build:section header -->
+				<!-- /build -->
+				<!--header-page-box-->
+				<div class="header-page-box cnt-section">
+					<div class="inner-wrap">
+						<div class="cnt-box">
+							<!--breadcrumbs-box-->
+							<div class="breadcrumbs-box">
+								<ol class="menu">
+									<li><a href="">Главная</a></li>
+									<li><a href="">Туры и путешествия</a></li>
+									<li><a href="">Индивидуальные туры по России</a></li>
+									<li><a href="">Путешествуем по Сахалину</a></li>
+								</ol>
+							</div>
+							<!--/breadcrumbs-box-->
+							<div class="title-wrap">
+								<h1 class="h1-title">Путешествуем по Сахалину</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/header-page-box-->
+				<div class="cnt-box header-bg"></div>
+			</div>
+			<!--/header-panel-wrap-->
+	
+			<!-- build:section filter -->
+			<!-- /build -->
+
+            <!-- page -->
+            <div class="page-full">
+				<div class="cnt-box section-content section-content-mobile-one">
+					
+					<!--content-outer-wrap-->
+					<div class="content-outer-wrap side-right content-article-photo">
+						
+						<!--content-wrap-->
+						<div class="content-wrap">
+							<div class="elm-photo photo-cover photo-article">
+								<img src="./img/article01.jpg" alt="">
+							</div>
+						</div>
+						<!--/content-wrap-->
+						
+						<!--side-wrap-->
+						<div class="side-wrap">
+							
+							<!--side-tile-box-->
+							<div class="side-tile-box">
+								<div class="tile-title">07.04.2023 19:16</div>
+								<div class="tile-location">
+									<a href="" class="btn-action-toggle">
+										<span class="button-ico">
+											<img src="./img/icons/location.svg" alt="">
+										</span>
+										<span class="button-title">Южно-Сахалинск</span>
+									</a>
+								</div>
+								<div class="tile-weather-wrap">
+									<div class="tile-weather-info">
+										<div class="tile-ico">
+											<img src="./img/icons/weather.svg" alt="">
+										</div>
+										4 м/с
+									</div>
+									<div class="tile-weather-total">
+										+13°C
+										<div class="tile-ico">
+											<img src="./img/icons/weather.svg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--/side-tile-box-->
+							
+							<!--side-tile-box-->
+							<div class="side-tile-box">
+								<div class="tile-info-wrap">
+									<div class="tile-info-title">Обратите внимание!</div>
+									<p>В регионе есть территории, которые требуют специального прокуска для нахождения там.</p>
+									<div class="tile-info-footer">
+										<p>Охраняемые природные территории</p>
+									</div>
+								</div>
+							</div>
+							<!--/side-tile-box-->
+							
+						</div>
+						<!--/side-wrap-->
+						
+					</div>
+					<!--/content-outer-wrap-->
+					
+					<!--content-outer-wrap-->
+					<div class="content-outer-wrap side-right ">
+						
+						<!--content-wrap-->
+						<div class="content-wrap">
+							
+							<!--article-box-->
+							<div class="article-box">
+								<p>Сахалин самый крупный остров РФ в восточной ее части. Лето здесь достаточно прохладное (средняя температура не превышает 19 °C), а зимы суровые (до 19 °C). Но несмотря на неординарный климат, Сахалин обладает множеством мест, достойных к посещению.</p>
+								<p>На острове Сахалин расположены такие города как Южно-Сахалинск, Корсаков, Холмск, Оха, Поронайск, Долинск, Невельск, Александровск-Сахалинский, Анива, Углегорск и многие другие, которые известны своими достопримечательностями как в городе, так и за его пределами. Вот основные из них:</p>
+								<p><b class="text-attention">Порт Корсаков</b> был построен в 1853 году. Название его связано с фамилией генерал-губернатора Восточной Сибири Михаила Корсакова. В 1993 году порт завоевал статус международного. Порт славится своей работоспособность и с его помощью 80% грузопотока проходит через данный порт. Порт Корсаков является стратегическим местом для нефтедобывающих компаний на Сахалине</p>
+								<p><b class="text-attention">Краеведческий музей Южно-Сахалинска</b> - музей, в котором Вы остались черты японской культуры. Здесь представлено много информации о быте людей. Здесь же Вы найдете и военную коллекцию, в которой особенно выделяются русская пушка 1867 года и японская пушка 1930-х.</p>
+								<div class="content-actions-box">
+									<div class="items-wrap">
+										<!--item wrap-->
+										<div class="item-wrap">
+											<a href="" class="item-tile-action-content">
+												<picture class="tile-photo">
+													<source srcset="./img/content-action-m.jpg" media="(max-width: 767px)">
+													<source srcset="./img/content-action-d.jpg">
+													<img src="./img/content-action-d.jpg" alt="" />
+												</picture>
+											</a>
+										</div>
+										<!--/item wrap-->
+									</div>
+								</div>
+								<p><b class="text-attention">Дагинские термальные источники</b>, расположились в Ногликском районе, в нескольких км от залива Даги. Общее количество ключей около 60 шт. Температура достаточно высокая, около 50 °С. Они содержат ряд полезных микроэлементов, которые оказывают благоприятное влияние на организм человека при ряде заболеваний от болезней кожи и нервной системы до нарушений опорно-двигательного аппарата. Приехав в данное место, Вы сможете искупаться в термальных источниках, которые оборудованы специальными ванночками под куполами.</p>
+								<p><b class="text-attention">Поронайский заповедник</b>, был основан в 1988 году в восточной части острова. Территория богата реками и озерами, реликтовыми лесами и животным миром. 600 видов животных, из них 40 видов – эндемики. Широкое разнообразие птиц, 170 видов из которых были внесены в Красную книгу: скопа, сапсан, мандаринка, дикуша, орлан-белохвост, белоплечий орлан и т.д. На мысе Терпения Вы сможете встретить и тюленей, и морских котиков, и большие стаи птиц. Вы также можете посетить природный парк «Монерон», с не менее привлекательными экземплярами.</p>
+								<p><b class="text-attention">Грязевой вулкан Южно-Сахалинский</b> отличается своей уникальностью. Размеры следующие: высота 300 м, диаметр около 200 м. Такой геологический памятник природы сформировался в 25 километрах от Южно-Сахалинска. Смотрится эффектно и неординарно. На поверхности вулкана вы увидите булькающие пузырьки из грязи, которые смотрятся, будто сотни маленьких вулканчиков стараются вырваться наружу. Вся поверхность покрыта застывшей грязью, которая была извержена.</p>
+								<p><b class="text-attention">Пик Чехова</b>, расположился недалеко от Южно-Сахалинска.Название пик приобрел после посещения А.П.Чехова. Писатель хотел увидеть собственными глазами место, где отбывали свою ссылку репрессированные граждане СССР. Все, что увидел и пережил писатель во время путешествия, отразилось в его книге «Остров Сахалин». Поднявшись на самую вершину пика , туристы смогут найти подарок – руины древнего языческого храма, построенного японцами.</p>
+								<p>Перечислить все прелести Сахалина просто невозможно.</p>
+								<p>Первобытная природа, скалы, порты, вулканы и заповедники - создают особую атмосферу данного места. На форуме путешественников Вы сможете поделиться своими приключениями на острове или же благодаря рассказам других участников сможете вынести для себя полезную информацию. Форум туристов и путешественников подарит Вам хорошие эмоции и много полезной информации, присоединяйтесь!</p>
+							</div>
+							<!--/article-box-->
+							
+							<!--article-info-box-->
+							<div class="article-info-box">
+								<!--actions-wrap-->
+								<div class="actions-inner-wrap">
+									<div class="action-inner-wrap">
+										<div class="action-title">Понравилась статья?</div>
+										<div class="action-items-wrap">
+											<div class="action-items">
+												<a href="" class="btn-action">
+													<span class="button-ico">
+														<img src="./img/icons/rate-up.svg" alt="">
+													</span>
+													<span class="button-title">152</span>
+												</a>
+												<a href="" class="btn-action">
+													<span class="button-ico">
+														<img src="./img/icons/rate-down.svg" alt="">
+													</span>
+													<span class="button-title">152</span>
+												</a>
+											</div>
+											<div class="action-items">
+												<a href="" class="btn-action">
+													<span class="button-ico">
+														<img src="./img/icons/messages.svg" alt="">
+													</span>
+													<span class="button-title">3</span>
+												</a>
+											</div>
+											<div class="action-items">
+												<a href="" class="btn-action">
+													<span class="button-ico">
+														<img src="./img/icons/views.svg" alt="">
+													</span>
+													<span class="button-title">3</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="fav-inner-wrap">
+										<div class="action-items-wrap">
+											<div class="action-items">
+												<a href="" class="btn-action">
+													<span class="button-ico">
+														<img src="./img/icons/fav.svg" alt="">
+													</span>
+													<span class="button-title">Следить за обновлениями</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="soc-inner-wrap">
+										<div class="soc-title">Поделитесь в соц.сетях</div>
+										<div class="soc-items">
+											<a href="" class="btn-action-ico button-soc">
+												<img src="./img/icons/soc01.svg" alt="">
+											</a>
+											<a href="" class="btn-action-ico button-soc">
+												<img src="./img/icons/soc02.svg" alt="">
+											</a>
+											<a href="" class="btn-action-ico button-soc">
+												<img src="./img/icons/soc03.svg" alt="">
+											</a>
+											<a href="" class="btn-action-ico button-soc">
+												<img src="./img/icons/soc04.svg" alt="">
+											</a>
+											<a href="" class="btn-action-ico button-soc">
+												<img src="./img/icons/soc05.svg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="button-inner-wrap">
+										<a href="" class="btn button-border button-main">Есть мнение или вопросы? <b>Жми сюда</b></a>
+									</div>
+								</div>
+								<!--/actions-wrap-->
+								<!--reviews-box-->
+								<div class="reviews-box">
+									<div class="items-wrap">
+										<!--item wrap-->
+										<div class="item-wrap">
+											<div class="item-tile-review">
+												<div class="tile-title-wrap">
+													<div class="tile-photo photo-cover bg-blue">КГ</div>
+													<div class="tile-title-inner-wrap">
+														<div class="tile-title-user-info">24 апреля / 14:03</div>
+														<div class="tile-title-user">Кузнецова Галина Ивановна</div>
+													</div>
+												</div>
+												<div class="tile-info-wrap">
+													<p>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии будут в равной степени предоставлены сами себе. В целом, конечно, начало повседневной работы по формированию позиции создаёт предпосылки для вывода текущих активов. Значимость этих проблем настолько очевидна, что понимание сути ресурсосберегающих технологий является качественно новой ступенью дальнейших направлений развития. Каждый из нас понимает очевидную вещь: реализация намеченных плановых заданий предопределяет высокую востребованность системы массового участия. Задача организации, в особенности же современная методология.</p>
+												</div>
+												<div class="tile-actions-wrap">
+													<a href="" class="link-main">Ответить</a>
+												</div>
+											</div>
+										</div>
+										<!--/item wrap-->
+										<!--item wrap-->
+										<div class="item-wrap">
+											<div class="item-tile-review tile-2">
+												<div class="tile-title-wrap">
+													<div class="tile-photo photo-cover bg-green">КГ</div>
+													<div class="tile-title-inner-wrap">
+														<div class="tile-title-user-info">24 апреля / 14:03</div>
+														<div class="tile-title-user">Кузнецова Галина Ивановна</div>
+													</div>
+												</div>
+												<div class="tile-info-wrap">
+													<p>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии будут в равной степени предоставлены сами себе. В целом, конечно, начало повседневной работы по формированию позиции создаёт предпосылки для вывода текущих активов. Значимость этих проблем настолько очевидна, что понимание сути ресурсосберегающих технологий является качественно новой ступенью дальнейших направлений развития. Каждый из нас понимает очевидную вещь: реализация намеченных плановых заданий предопределяет высокую востребованность системы массового участия. Задача организации, в особенности же современная методология.</p>
+												</div>
+												<div class="tile-actions-wrap">
+													<a href="" class="link-main">Ответить</a>
+												</div>
+											</div>
+										</div>
+										<!--/item wrap-->
+										<!--item wrap-->
+										<div class="item-wrap">
+											<div class="item-tile-review tile-3">
+												<div class="tile-title-wrap">
+													<div class="tile-photo photo-cover bg-att">КГ</div>
+													<div class="tile-title-inner-wrap">
+														<div class="tile-title-user-info">24 апреля / 14:03</div>
+														<div class="tile-title-user">Кузнецова Галина Ивановна</div>
+													</div>
+												</div>
+												<div class="tile-info-wrap">
+													<p>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии будут в равной степени предоставлены сами себе. В целом, конечно, начало повседневной работы по формированию позиции создаёт предпосылки для вывода текущих активов. Значимость этих проблем настолько очевидна, что понимание сути ресурсосберегающих технологий является качественно новой ступенью дальнейших направлений развития. Каждый из нас понимает очевидную вещь: реализация намеченных плановых заданий предопределяет высокую востребованность системы массового участия. Задача организации, в особенности же современная методология.</p>
+												</div>
+												<div class="tile-actions-wrap">
+													<a href="" class="link-main">Ответить</a>
+												</div>
+											</div>
+										</div>
+										<!--/item wrap-->
+										<!--item wrap-->
+										<div class="item-wrap">
+											<div class="item-tile-review tile-3">
+												<div class="tile-title-wrap">
+													<div class="tile-photo photo-cover bg-pink">КГ</div>
+													<div class="tile-title-inner-wrap">
+														<div class="tile-title-user-info">24 апреля / 14:03</div>
+														<div class="tile-title-user">Кузнецова Галина Ивановна</div>
+													</div>
+												</div>
+												<div class="tile-info-wrap">
+													<p>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии будут в равной степени предоставлены сами себе. В целом, конечно, начало повседневной работы по формированию позиции создаёт предпосылки для вывода текущих активов. Значимость этих проблем настолько очевидна, что понимание сути ресурсосберегающих технологий является качественно новой ступенью дальнейших направлений развития. Каждый из нас понимает очевидную вещь: реализация намеченных плановых заданий предопределяет высокую востребованность системы массового участия. Задача организации, в особенности же современная методология.</p>
+												</div>
+												<div class="tile-actions-wrap">
+													<a href="" class="link-main">Ответить</a>
+												</div>
+											</div>
+										</div>
+										<!--/item wrap-->
+										<!--item wrap-->
+										<div class="item-wrap">
+											<div class="item-tile-review">
+												<div class="tile-title-wrap">
+													<div class="tile-photo photo-cover bg-green">КГ</div>
+													<div class="tile-title-inner-wrap">
+														<div class="tile-title-user-info">24 апреля / 14:03</div>
+														<div class="tile-title-user">Кузнецова Галина Ивановна</div>
+													</div>
+												</div>
+												<div class="tile-info-wrap">
+													<p>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии будут в равной степени предоставлены сами себе. В целом, конечно, начало повседневной работы по формированию позиции создаёт предпосылки для вывода текущих активов. Значимость этих проблем настолько очевидна, что понимание сути ресурсосберегающих технологий является качественно новой ступенью дальнейших направлений развития. Каждый из нас понимает очевидную вещь: реализация намеченных плановых заданий предопределяет высокую востребованность системы массового участия. Задача организации, в особенности же современная методология.</p>
+												</div>
+												<div class="tile-actions-wrap">
+													<a href="" class="link-main">Ответить</a>
+												</div>
+											</div>
+											<form action="/" class="form-inner-wrap">
+												<picture class="elm-photo">
+													<source srcset="./img/form-mobile.png" media="(max-width: 767px)">
+													<source srcset="./img/form-desktop.png" media="">
+													<img src="./img/form-desktop.png" alt="" />
+												</picture>
+											</form>
+										</div>
+										<!--/item wrap-->
+									</div>
+								</div>
+								<!--/reviews-box-->
+							</div>
+							<!--/article-info-box-->
+							
+						</div>
+						<!--/content-wrap-->
+						
+						<!--side-wrap-->
+						<div class="side-wrap">
+							
+							<!--side-tile-box-->
+							<div class="side-tiles-box">
+								<div class="title-inner-wrap">
+									<div class="side-title">Ближайшие туры в Порт&nbsp;Корсаков</div>
+									<div class="side-info">на 07.04.2023</div>
+								</div>
+								<div class="items-wrap">
+									<!--item wrap-->
+									<div class="item-wrap">
+										<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side01.jpg" alt="">
+												</span>
+											</span>
+											<span class="tile-title-wrap">
+												<span class="tile-title">Тур выходного дня</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+											<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--/item wrap-->
+									<!--item wrap-->
+									<div class="item-wrap">
+										<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side02.jpg" alt="">
+												</span>
+											</span>
+											<span class="tile-title-wrap">
+												<span class="tile-title">Майские праздники</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+											<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--/item wrap-->
+								</div>
+							</div>
+							<!--/side-tile-box-->
+							
+							<!--side-tile-box-->
+							<div class="side-tiles-box">
+								<div class="title-inner-wrap">
+									<div class="side-title">Ближайшие туры в
+										Краеведческий музей Южно-Сахалинска</div>
+									<div class="side-info">на 07.04.2023</div>
+								</div>
+								<div class="items-wrap">
+									<!--item wrap-->
+									<div class="item-wrap">
+										<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side01.jpg" alt="">
+												</span>
+											</span>
+											<span class="tile-title-wrap">
+												<span class="tile-title">Тур выходного дня</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+											<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--/item wrap-->
+									<!--item wrap-->
+									<div class="item-wrap">
+										<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side02.jpg" alt="">
+												</span>
+											</span>
+											<span class="tile-title-wrap">
+												<span class="tile-title">Майские праздники</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+											<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--/item wrap-->
+								</div>
+							</div>
+							<!--/side-tile-box-->
+							
+							<!--side-tile-box-->
+							<div class="side-tiles-box">
+								<div class="title-inner-wrap">
+									<div class="side-title">Ближайшие туры в Грязевой вулкан Южно-Сахалинский</div>
+									<div class="side-info">на 07.04.2023</div>
+								</div>
+								<div class="slider-wrap">
+									<div class="slider">
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side01.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Тур выходного дня</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side02.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Майские праздники</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side01.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Тур выходного дня</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side02.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Майские праздники</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side01.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Тур выходного дня</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+										<!--sl-wrap-->
+										<div class="sl-wrap">
+											<a href="" class="item-tile-side">
+											<span class="tile-photo-wrap">
+												<span class="tile-photo photo-cover">
+													<img src="./img/side02.jpg" alt="">
+												</span>
+											</span>
+												<span class="tile-title-wrap">
+												<span class="tile-title">Майские праздники</span>
+												<span class="tile-info">3524 позиций</span>
+											</span>
+												<span class="tile-features-wrap">
+												<span class="tile-feature-wrap">
+													<span class="tile-feature type-second">
+														<span class="tile-ico">
+															<img src="./img/icons/rouble.svg" alt="">
+														</span>
+														<span class="tile-feature-title-wrap">
+															<span class="tile-feature-title">Цена за человека</span>
+															<span class="tile-feature-info">от 15 500 руб.</span>
+														</span>
+													</span>
+												</span>
+											</span>
+											</a>
+										</div>
+										<!--/sl-wrap-->
+									</div>
+								</div>
+							</div>
+							<!--/side-tile-box-->
+							
+							<div class="actions-box">
+								<div class="action-wrap wrap-center">
+									<a href="" class="btn button-main button-border">
+										<span class="button-ico">
+											<img src="./img/icons/button02.svg" alt="">
+										</span>
+										<span class="button-title">Подобрать тур</span>
+									</a>
+								</div>
+							</div>
+							
+							<!--side-actions-box-->
+							<div class="side-actions-box">
+								<div class="items-wrap">
+									<!--item wrap-->
+									<div class="item-wrap">
+										<a href="" class="item-tile-side-action">
+											<span class="tile-title-wrap">
+												<span class="tile-title">Напишите отзыв</span>
+												<span class="tile-text">Получите скидку на&nbsp;последующие путешествия </span>
+											</span>
+											<span class="tile-photo-wrap">
+												<span class="tile-photo">
+													<img src="./img/side-action.svg" alt="">
+												</span>
+											</span>
+										</a>
+									</div>
+									<!--/item wrap-->
+								</div>
+							</div>
+							<!--/side-actions-box-->
+						</div>
+						<!--/side-wrap-->
+					
+					</div>
+					<!--/content-outer-wrap-->
+					
+					<!--cnt box-->
+					<div class="cnt-box">
+						<div class="title-box">
+							<h2 class="h1-title title-decor">Последние обсуждения и темы</h2>
+						</div>
+						<!--tags-slider-box-->
+						<div class="tags-slider-box">
+							<div class="slider-wrap">
+								<div class="slider">
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag active">Все</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Путешествия</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Еда</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Отели</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Базы отдыха</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда поехать?</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда сходить?</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Концерты</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Музеи</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда сходить с детьми?</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Путешествия</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Еда</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Отели</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Базы отдыха</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда поехать?</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда сходить?</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Концерты</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Музеи</a>
+									</div>
+									<div class="sl-wrap">
+										<a href="" class="btn button-tag">Куда сходить с детьми?</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--/tags-slider-box-->
+						<div class="catalog-slider-box">
+							<div class="slider-wrap">
+								<div class="slider">
+									<!--sl-wrap-->
+									<div class="sl-wrap">
+										<div class="item-tile-catalog">
+											<a href="" class="tile-link"></a>
+											<div class="tile-photo-wrap">
+												<a href="" class="tile-photo photo-cover">
+													<img src="./img/cat03.jpg" alt="">
+												</a>
+												<div class="tile-action-wrap">
+													<a href="" class="btn button-main button-border button-large">
+												<span class="button-ico">
+													<img src="./img/icons/button03.svg" alt="">
+												</span>
+														<span class="button-title">Обсудить </span>
+													</a>
+												</div>
+											</div>
+											<div class="tile-actions-wrap">
+												<div class="tile-action">12.10.2023&nbsp;&nbsp;12:56</div>
+												<div class="tile-actions">
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action01.svg" alt="">
+														</div>
+														1256
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action02.svg" alt="">
+														</div>
+														126
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action03.svg" alt="">
+														</div>
+														12k
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action04.svg" alt="">
+														</div>
+														12
+													</div>
+												</div>
+											</div>
+											<div class="tile-inner-wrap">
+												<div class="tile-tags-wrap">
+													<a href="">#Туры в Карелии обсуждения</a>
+													<a href="">#Выходные в Карелии</a>
+													<a href="">#Новогодние</a>
+													<a href="">#Экскурсии</a>
+													<a href="">#Обзорная</a>
+													<a href="">#Индивидуальные</a>
+													<a href="">#Популярные туры</a>
+												</div>
+												<div class="tile-user-wrap">
+													<div class="elm-user-wrap">
+														<div class="elm-photo photo-cover">ИИ</div>
+														<div class="user-title">Пользователь:</div>
+														<div class="user-info">Ивановский И</div>
+													</div>
+												</div>
+												<div class="tile-text-wrap">
+													<p>Но реплицированные с зарубежных источников, современные исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и...</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--/sl-wrap-->
+									<!--sl-wrap-->
+									<div class="sl-wrap">
+										<div class="item-tile-catalog">
+											<a href="" class="tile-link"></a>
+											<div class="tile-photo-wrap">
+												<a href="" class="tile-photo photo-cover">
+													<img src="./img/cat03.jpg" alt="">
+												</a>
+												<div class="tile-action-wrap">
+													<a href="" class="btn button-main button-border button-large">
+												<span class="button-ico">
+													<img src="./img/icons/button03.svg" alt="">
+												</span>
+														<span class="button-title">Обсудить </span>
+													</a>
+												</div>
+											</div>
+											<div class="tile-actions-wrap">
+												<div class="tile-action">12.10.2023&nbsp;&nbsp;12:56</div>
+												<div class="tile-actions">
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action01.svg" alt="">
+														</div>
+														1256
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action02.svg" alt="">
+														</div>
+														126
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action03.svg" alt="">
+														</div>
+														12k
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action04.svg" alt="">
+														</div>
+														12
+													</div>
+												</div>
+											</div>
+											<div class="tile-inner-wrap">
+												<div class="tile-tags-wrap">
+													<a href="">#Туры в Карелии обсуждения</a>
+													<a href="">#Выходные в Карелии</a>
+													<a href="">#Новогодние</a>
+													<a href="">#Экскурсии</a>
+													<a href="">#Обзорная</a>
+													<a href="">#Индивидуальные</a>
+													<a href="">#Популярные туры</a>
+												</div>
+												<div class="tile-user-wrap">
+													<div class="elm-user-wrap">
+														<div class="elm-photo photo-cover">ИИ</div>
+														<div class="user-title">Пользователь:</div>
+														<div class="user-info">Ивановский И</div>
+													</div>
+												</div>
+												<div class="tile-text-wrap">
+													<p>Но реплицированные с зарубежных источников, современные исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и...</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--/sl-wrap-->
+									<!--sl-wrap-->
+									<div class="sl-wrap">
+										<div class="item-tile-catalog">
+											<a href="" class="tile-link"></a>
+											<div class="tile-photo-wrap">
+												<a href="" class="tile-photo photo-cover">
+													<img src="./img/cat03.jpg" alt="">
+												</a>
+												<div class="tile-action-wrap">
+													<a href="" class="btn button-main button-border button-large">
+												<span class="button-ico">
+													<img src="./img/icons/button03.svg" alt="">
+												</span>
+														<span class="button-title">Обсудить </span>
+													</a>
+												</div>
+											</div>
+											<div class="tile-actions-wrap">
+												<div class="tile-action">12.10.2023&nbsp;&nbsp;12:56</div>
+												<div class="tile-actions">
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action01.svg" alt="">
+														</div>
+														1256
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action02.svg" alt="">
+														</div>
+														126
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action03.svg" alt="">
+														</div>
+														12k
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action04.svg" alt="">
+														</div>
+														12
+													</div>
+												</div>
+											</div>
+											<div class="tile-inner-wrap">
+												<div class="tile-tags-wrap">
+													<a href="">#Туры в Карелии обсуждения</a>
+													<a href="">#Выходные в Карелии</a>
+													<a href="">#Новогодние</a>
+													<a href="">#Экскурсии</a>
+													<a href="">#Обзорная</a>
+													<a href="">#Индивидуальные</a>
+													<a href="">#Популярные туры</a>
+												</div>
+												<div class="tile-user-wrap">
+													<div class="elm-user-wrap">
+														<div class="elm-photo photo-cover">ИИ</div>
+														<div class="user-title">Пользователь:</div>
+														<div class="user-info">Ивановский И</div>
+													</div>
+												</div>
+												<div class="tile-text-wrap">
+													<p>Но реплицированные с зарубежных источников, современные исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и...</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--/sl-wrap-->
+									<!--sl-wrap-->
+									<div class="sl-wrap">
+										<div class="item-tile-catalog">
+											<a href="" class="tile-link"></a>
+											<div class="tile-photo-wrap">
+												<a href="" class="tile-photo photo-cover">
+													<img src="./img/cat03.jpg" alt="">
+												</a>
+												<div class="tile-action-wrap">
+													<a href="" class="btn button-main button-border button-large">
+												<span class="button-ico">
+													<img src="./img/icons/button03.svg" alt="">
+												</span>
+														<span class="button-title">Обсудить </span>
+													</a>
+												</div>
+											</div>
+											<div class="tile-actions-wrap">
+												<div class="tile-action">12.10.2023&nbsp;&nbsp;12:56</div>
+												<div class="tile-actions">
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action01.svg" alt="">
+														</div>
+														1256
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action02.svg" alt="">
+														</div>
+														126
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action03.svg" alt="">
+														</div>
+														12k
+													</div>
+													<div class="tile-action-ico">
+														<div class="tile-ico">
+															<img src="./img/icons/action04.svg" alt="">
+														</div>
+														12
+													</div>
+												</div>
+											</div>
+											<div class="tile-inner-wrap">
+												<div class="tile-tags-wrap">
+													<a href="">#Туры в Карелии обсуждения</a>
+													<a href="">#Выходные в Карелии</a>
+													<a href="">#Новогодние</a>
+													<a href="">#Экскурсии</a>
+													<a href="">#Обзорная</a>
+													<a href="">#Индивидуальные</a>
+													<a href="">#Популярные туры</a>
+												</div>
+												<div class="tile-user-wrap">
+													<div class="elm-user-wrap">
+														<div class="elm-photo photo-cover">ИИ</div>
+														<div class="user-title">Пользователь:</div>
+														<div class="user-info">Ивановский И</div>
+													</div>
+												</div>
+												<div class="tile-text-wrap">
+													<p>Но реплицированные с зарубежных источников, современные исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и...</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--/sl-wrap-->
+								</div>
+							</div>
+						</div>
+						<div class="actions-box">
+							<div class="action-wrap wrap-center">
+								<a href="" class="btn button-main button-border">
+								<span class="button-ico">
+									<img src="./img/icons/button03.svg" alt="">
+								</span>
+									<span class="button-title">Все обсуждения</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!--/cnt box-->
+					
+				</div>
+            </div>
+            <!-- /page -->
+            
+            <!-- build:section footer -->
+            <!-- /build -->
+            
+        </div>
+        <!-- /wrap -->
+
+        <!-- build:section scripts -->
+        <!-- /build -->
+    
+    </body>
+</html>

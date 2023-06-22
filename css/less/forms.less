@@ -1,6 +1,10 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-req {
+    display: inline;
+    color: var(--clr-att);
+}
 .frm-field-range {
     padding-top: 6px;
     .field-range-slider {
@@ -343,6 +347,34 @@
         }
         &:last-child {
             label {border-radius: 0 4px 4px 0;}
+        }
+    }
+}
+@media (max-width: 1023px) {
+    .frm-field-input.field-mobile-large {
+        .field-input-title {
+            font-size: 12px;
+            top: 12px;
+            padding-left: 12px;
+            &~.form-input {
+                height: 63px;
+                padding-top: 22px;
+            }
+        }
+        .frm-ico {
+            width: 28px;
+            height: 28px;
+            left: 26px;
+            margin: -14px 0 0 -14px;
+            img, svg {
+                width: 100%;
+            }
+            &~.form-input, &~.field-input-title {
+                padding-left: 56px;
+            }
+        }
+        .form-input {
+            font-size: 16px;
         }
     }
 }

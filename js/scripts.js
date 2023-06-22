@@ -19,6 +19,13 @@ $(document).ready(function(){
 	  });
 	  return this;
 	};
+    
+    
+    //side menu
+    $('.side-menu-box .btn-menu-toggle').on('click', function() {
+        $(this).toggleClass('active-menu');
+        return false;
+    })
 
     
     //filter

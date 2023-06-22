@@ -85,6 +85,35 @@ select.form-input:required:invalid {
     color: #fff;
     font-weight: 400;
     box-shadow: 0px 6px 20px rgba(27, 72, 90, 0.36);
+    &.button-back, &.button-forward {
+        height: 41px;
+        border-radius: 21px;
+        padding: 0 15px;
+        box-shadow: none;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: none;
+        .button-ico {
+            width: 35px;
+            height: 24px;
+            margin: 0 10px 0 0;
+            img {
+                width: auto;
+                height: 24px;
+                max-width: inherit;
+                right: auto;
+            }
+        }
+    }
+    &.button-forward {
+        .button-ico {
+            margin: 0 0 0 10px;
+            img {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
     &.button-content {
         height: 38px;
         border-radius: 5px;
@@ -345,6 +374,37 @@ select.form-input:required:invalid {
         }
     }
 }
+.btn-action {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--clr-base);
+    flex-shrink: 0;
+    margin: 0 15px 0 0;
+    &:last-child {
+        margin: 0;
+    }
+    .button-ico {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px 0 0;
+        flex-shrink: 0;
+    }
+    &:hover {
+        color: var(--clr-title);
+    }
+}
+.fav-inner-wrap {
+    .btn-action {
+        .button-ico {
+            margin-right: 10px;
+        }
+        .button-title {
+            text-decoration: underline;
+        }
+    }
+}
 .btn-action-toggle {
     display: flex;
     align-items: center;
@@ -393,6 +453,15 @@ select.form-input:required:invalid {
         padding-top: 15px;
     }
     .btn {
+        &.button-back, &.button-forward {
+            height: 51px;
+            border-radius: 26px;
+            padding: 0 29px;
+            font-size: 16px;
+            .button-ico {
+                width: 58px;
+            }
+        }
         &.button-form {
             height: 60px;
             &.btn-action-ico {
