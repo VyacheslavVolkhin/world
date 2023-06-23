@@ -1,6 +1,136 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-field-file {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    input[type="file"] {
+        display: block;
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        opacity: 0;
+        top: 110%;
+        left: 110%;
+        position: absolute;
+        z-index: -999;
+    }
+    .btn {
+        height: 24px;
+        display: block;
+        line-height: 16px;
+        padding: 4px 0 0 34px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: var(--clr-title);
+        &:before {
+            content: "";
+            display: block;
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            background: url(../img/icons/attach.svg) center no-repeat;
+            background-size: 100% auto;
+            top: 0;
+            left: 0;
+        }
+        .button-title {
+            display: block;
+            height: 16px;
+            line-height: 16px;
+            border-bottom: 1px solid;
+            max-width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}
+.frm-field-uploads {
+    display: flex;
+    margin: 0 -10px -10px 0 0;
+    .elm-photo {
+        flex-shrink: 0;
+        width: 75px;
+        height: 75px;
+        border-radius: 8px;
+        background: #DCE9EF80 url(../img/icons/gallery.svg) center no-repeat;
+        background-size: 45px auto;
+        margin: 0 10px 10px 0;
+        &:hover {
+            .btn-action-ico.ico-del {
+                opacity: 1;
+            }
+        }
+        .btn-action-ico.ico-del {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            background: fade(#000, 90);
+            opacity: 0;
+            &:hover {
+                background: fade(#000, 80);
+            }
+            &:before, &:after {
+                background: #fff;
+            }
+        }
+    }
+    .upload-action {
+        width: 75px;
+        height: 75px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        flex-shrink: 0;
+        margin: 0 10px 10px 0;
+        .btn.btn-action-ico.button-form {
+            width: 75px;
+            height: 75px;
+            border: none;
+        }
+    }
+}
+.frm-field-buttons-panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px 0 0;
+    .field-button-panel {
+        display: flex;
+        flex-shrink: 0;
+        margin: 0 30px 10px 0;
+    }
+    .btn-action-ico {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px 0 0;
+        flex-shrink: 0;
+        &:last-child {
+            margin: 0;
+        }
+        img, svg {
+            filter: brightness(0) grayscale(1);
+        }
+        &:hover, &.active {
+            img, svg {
+                filter: none;
+            }
+        }
+    }
+}
 .frm-req {
     display: inline;
     color: var(--clr-att);
@@ -86,6 +216,34 @@
 .frm-field-input {
     position: relative;
     line-height: 1;
+    &:before {
+        content: "";
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        background: #eef5f7 url(../img/icons/frm-valid.svg) center no-repeat;
+        background-size: 24px auto;
+        top: 50%;
+        right: 27px;
+        margin: -20px -20px 0 0;
+        z-index: 4;
+        pointer-events: none;
+        display: none;
+    }
+    &.inp-valid {
+        &:before {
+            display: block;
+        }
+    }
+    &.inp-required {
+        .field-input-title {
+            &:after {
+                content: " *";
+                color: var(--clr-att);
+                display: inline;
+            }
+        }
+    }
     .field-input-title {
         display: block;
         position: absolute;
@@ -119,6 +277,34 @@
         pointer-events: none;
         &~.form-input, &~.field-input-title {
             padding-left: 40px;
+        }
+    }
+    textarea.form-input {
+        padding-top: 40px !important;
+        min-height: 450px;
+        resize: vertical;
+        font-size: 12px;
+        line-height: 1.25;
+    }
+    .button-password-toggle {
+        z-index: 5;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        right: 27px;
+        margin: -20px -20px 0 0;
+        &~.form-input {
+            padding-right: 50px;
+        }
+        &:not(.active) {
+            &~.form-input {
+                font-size: 34px;
+                font-weight: bold;
+                color: var(--clr-title);
+                //-webkit-text-security: square;
+                .ft;
+            }
         }
     }
 }
@@ -268,6 +454,35 @@
     }
 }
 .frm-select-content {
+    &.select-inner {
+        label {
+            min-height: 24px;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 39px;
+            display: flex;
+            align-items: center;
+            &:before {
+                width: 24px;
+                height: 24px;
+                border-radius: 3px;
+                background: #DCE9EF80;
+                border: none;
+                top: 50%;
+                left: 12px;
+                margin: -12px 0 0 -12px;
+            }
+            &:after {
+                width: 24px;
+                height: 24px;
+                top: 50%;
+                left: 12px;
+                margin: -12px 0 0 -12px;
+                background-image: url(../img/icons/chk-inner.svg);
+                background-size: 24px auto;
+            }
+        }
+    }
     label {
         padding-left: 37px;
         padding-top: 2px;
@@ -400,6 +615,9 @@
             &~.form-input, &~.field-input-title {
                 padding-left: 56px;
             }
+        }
+        textarea.form-input {
+            min-height: 270px;
         }
     }
     .frm-row, .frm-row-submit {

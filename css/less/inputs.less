@@ -287,9 +287,24 @@ select.form-input:required:invalid {
             box-shadow: none;
         }
     }
-    &.ico-plus {
+    &.ico-plus, &.ico-minus {
         &:before {
             background-image: url(../img/icons/plus.svg);
+        }
+    }
+    &.ico-minus, &.ico-plus.active {
+        &:before {
+            background-image: url(../img/icons/minus.svg);
+        }
+    }
+    &.ico-password {
+        &:before {
+            background-image: url(../img/icons/password-hide.svg);
+        }
+        &.active {
+            &:before {
+                background-image: url(../img/icons/password-show.svg);
+            }
         }
     }
     &.ico-arrow {
@@ -322,17 +337,18 @@ select.form-input:required:invalid {
             background-image: url(../img/icons/menu.svg);
         }
     }
-    &.ico-close {
+    &.ico-close, &.ico-del {
         &:after, &:before {
-            width: 20px;
+            width: 24px;
             height: 2px;
             top: 50%;
             left: 50%;
             bottom: auto;
             right: auto;
-            margin: -1px 0 0 -10px;
+            margin: -1px 0 0 -12px;
             background: var(--clr-base);
             filter: none !important;
+            border-radius: 1px;
         }
         &:before {
             .t-rotate(45deg);

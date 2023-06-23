@@ -1,6 +1,154 @@
 /* ----------------------------------- *\
 			content styles
 \* ----------------------------------- */
+.lk-form-box {
+    line-height: 1.25;
+    font-size: 14px;
+    .frm-submit-wrap {
+        .frm-row-submit {
+            display: flex;
+            .frm-field {
+                width: 100%;
+                margin: 0;
+                text-align: center;
+                &.field-info {
+                    width: 50%;
+                    margin: 15px 0 0 0;
+                    .btn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .btn:not(.button-main) {
+            height: 51px;
+            border-radius: 26px;
+            padding: 0 29px;
+            font-size: 16px;
+        }
+        .btn.button-main {
+            height: 45px;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+    }
+    .frm-section-wrap {
+        margin-bottom: 20px;
+        &.section-border {
+            border-bottom: 1px solid var(--clr-att);
+            padding-bottom: 18px;
+            margin-bottom: 30px;
+        }
+    }
+    .frm-section-photo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        max-width: 330px;
+        text-align: center;
+        .photo-link-wrap {
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--clr-title);
+            a {
+                &:not(:hover) {
+                    color: inherit;
+                }
+            }
+        }
+        .photo-info-wrap {
+            font-size: 12px;
+            color: var(--clr-light-dark);
+        }
+        .photo-inner-wrap {
+            border-radius: 17px;
+            border: 1px solid var(--clr-att);
+            padding: 65px 30px;
+            margin-bottom: 10px;
+        }
+        .elm-photo {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto;
+        }
+        .photo-title {
+            margin: 15px 0 0 0;
+            display: block;
+            font-size: 12px;
+            line-height: 1.25;
+            color: #81949D;
+        }
+    }
+    .frm-section-title {
+        display: block;
+        font-size: 18px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+        color: var(--clr-title);
+        .ft;
+    }
+    .frm-field {
+        margin-bottom: 10px;
+        padding: 0 5px;
+        width: 100%;
+        .frm-field {
+            margin-bottom: 0;
+        }
+        &.field-text {
+            padding-top: 5px;
+            color: var(--clr-title);
+            a {
+                &:not(:hover) {
+                    color: var(--clr-title);
+                }
+            }
+        }
+    }
+    .field-full {
+        width: auto;
+        flex: 1;
+        &+.frm-field {
+            width: auto;
+            flex-shrink: 0;
+        }
+    }
+    .frm-row, .frm-row-submit {
+        margin: 0 -5px;
+    }
+    .frm-content {
+        display: none;
+        animation: fadein ease 0.2s;
+        margin-top: 5px;
+        &.active {
+            display: block;
+        }
+    }
+    .frm-field-title {
+        display: block;
+        color: var(--clr-title);
+        margin: 0 0 15px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.25;
+        .fm;
+    }
+    .btn.button-form.btn-action-ico {
+        width: 53px;
+        height: 63px;
+        flex-shrink: 0;
+        &:before {
+            background-size: 40px auto;
+        }
+    }
+    .frm-select-content {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
 .order-form-box {
     margin-bottom: 30px;
     .frm-row {
@@ -2167,6 +2315,44 @@
     }
 }
 @media (min-width: 640px) {
+    .lk-form-box {
+        .select-inner-wrap {
+            columns: 2;
+            column-gap: 30px;
+            margin-bottom: -10px;
+            .frm-select-content {
+                page-break-inside: avoid;
+                break-inside: avoid-column;
+            }
+        }
+        .row-select-fields {
+            .frm-field {
+                width: 50%;
+                &:first-child {
+                    width: 100%;
+                }
+            }
+        }
+        .field-half {
+            width: 50%;
+        }
+        .field-full.field-half {
+            width: 50%;
+            flex: inherit;
+            flex-shrink: 0;
+            &+.frm-field {
+                width: 50%;
+            }
+        }
+        .field-full-d {
+            width: auto;
+            flex: 1;
+            &+.frm-field {
+                width: auto;
+                flex-shrink: 0;
+            }
+        }
+    }
     .card-box {
         .cnt-wrap {
             .cnt-action {
@@ -2347,6 +2533,79 @@
     }
 }
 @media (min-width: 1024px) {
+    .lk-form-box {
+        .frm-submit-wrap {
+            .frm-row-submit {
+                justify-content: center;
+                align-items: center;
+                .frm-field {
+                    width: auto;
+                    &.field-info {
+                        width: auto;
+                        margin: 0;
+                    }
+                }
+            }
+            .btn:not(.button-main) {
+                height: 70px;
+                border-radius: 35px;
+                font-size: 16px;
+            }
+            .btn.button-main {
+                padding: 0 29px;
+                width: auto;
+            }
+        }
+        .frm-field-buttons-panel {
+            margin-bottom: 5px;
+        }
+        .frm-section-photo {
+            margin-bottom: 30px;
+            .photo-inner-wrap {
+                margin-bottom: 15px;
+            }
+            .photo-link-wrap {
+                margin-bottom: 15px;
+            }
+        }
+        .frm-section-wrap {
+            margin-bottom: 15px;
+        }
+        .frm-section-title {
+            font-size: 24px;
+            line-height: 1.25;
+            margin-bottom: 30px;
+            &.title-small {
+                font-size: 18px;
+                line-height: 1.35;
+                margin-bottom: 15px;
+            }
+            &.title-small-b {
+                margin-bottom: 15px;
+            }
+        }
+        .frm-field {
+            margin-bottom: 15px;
+            padding: 0 1.5rem;
+        }
+        .frm-row, .frm-row-submit {
+            margin-left: -1.5rem;
+            margin-right: -1.5rem;
+        }
+        .row-sep-top {
+            padding-top: 15px;
+        }
+        .frm-content {
+            margin-top: 15px;
+        }
+        .btn.button-form.btn-action-ico {
+            width: 75px;
+            height: 75px;
+        }
+        .frm-select-content {
+            margin-bottom: 15px;
+        }
+    }
     .section-lk {
         .side-menu-box {
             .btn-menu {
@@ -3176,6 +3435,16 @@
     }
 }
 @media (min-width: 1200px) {
+    .lk-form-box {
+        .select-inner-wrap {
+            columns: 3;
+        }
+        .frm-submit-wrap {
+            .btn.button-main {
+                min-width: 200px;
+            }
+        }
+    }
     .faq-box {
         .form-wrap {
             padding-left: 5rem;
@@ -3196,6 +3465,20 @@
     }
 }
 @media (min-width: 1400px) {
+    .lk-form-box {
+        .select-inner-wrap {
+            columns: 4;
+        }
+        .row-select-fields {
+            align-items: center;
+            .frm-field {
+                width: 33.33%;
+                &:first-child {
+                    width: 33.33%;
+                }
+            }
+        }
+    }
     .order-form-box {
         .frm-row {
             &:not(:first-child) {

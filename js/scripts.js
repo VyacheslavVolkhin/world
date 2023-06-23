@@ -19,6 +19,73 @@ $(document).ready(function(){
 	  });
 	  return this;
 	};
+
+
+    //file input 
+    $('.js-field-file .js-file-button').on('click', function () {
+        $(this).parent().find('input').click();
+        return false;
+    })
+    $('.js-field-file input[type=file]').on('change', function () {
+        let fileName = ('' + $(this).val());
+        if (fileName == "") {
+            fileName = $(this).parent().find('.js-file-button').attr('data-title');
+            $(this).parent().removeClass('active').find('.js-file-button').find('.button-title').html(fileName);
+        } else {
+            $(this).parent().addClass('active').find('.js-file-button').find('.button-title').html(fileName);
+        }
+    });
+
+    //field-password
+    $('.button-password-toggle').on('click', function () {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $(this).parent('.frm-field-input').find('.form-input').prop('type', 'password');
+        } else {
+            $(this).addClass('active');
+            $(this).parent('.frm-field-input').find('.form-input').prop('type', 'text');
+        }
+        return false;
+    })
+
+
+    //btn tgl
+    $('.js-btn-tgl:not(.tgl-one)').on('click', function () {
+        $(this).toggleClass('active');
+        return false;
+    })
+    $('.js-btn-tgl.tgl-one').on('click', function () {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+        } else {
+            $(this).parents('.tgl-wrap').find('.js-btn-tgl.active').removeClass('active');
+            $(this).addClass('active');
+        }
+        return false;
+    })
+
+    //content toggle action
+    $('input[data-content]').each(function () {
+        if ($(this).is(':checked')) {
+            let selectContent = $(this).attr('data-content');
+            $('.frm-content[data-content="' + selectContent + '"]').addClass('active');
+        }
+    })
+    $('input[data-content]').on('click', function () {
+        $('.frm-content.active').removeClass('active');
+        $('input[data-content]').each(function () {
+            if ($(this).is(':checked')) {
+                let selectContent = $(this).attr('data-content');
+                $('.frm-content[data-content="' + selectContent + '"]').addClass('active');
+            }
+        })
+    })
+    $('.btn[data-content]').on('click', function () {
+        let dataContent = $(this).attr('data-content');
+        $(this).attr('disabled', 'disabled');
+        $('.frm-content[data-content="' + dataContent + '"]').slideDown(200);
+        return false;
+    })
     
     
     //side menu
