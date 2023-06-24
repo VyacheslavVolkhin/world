@@ -604,7 +604,8 @@ body {
   padding-bottom: 15px;
 }
 .header-page-box .cnt-box {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header-page-box .h1-title + .btn {
   margin-top: -8px;
@@ -7296,11 +7297,13 @@ select.form-input:required:invalid {
   padding-left: 40px;
 }
 .frm-field-input textarea.form-input {
-  padding-top: 40px !important;
   min-height: 450px;
   resize: vertical;
   font-size: 12px;
   line-height: 1.25;
+}
+.frm-field-input .frm-field-input ~ textarea.form-input {
+  padding-top: 40px !important;
 }
 .frm-field-input .button-password-toggle {
   z-index: 5;

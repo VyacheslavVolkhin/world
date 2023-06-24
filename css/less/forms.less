@@ -280,11 +280,15 @@
         }
     }
     textarea.form-input {
-        padding-top: 40px !important;
         min-height: 450px;
         resize: vertical;
         font-size: 12px;
         line-height: 1.25;
+    }
+    .frm-field-input {
+        &~textarea.form-input {
+            padding-top: 40px !important;
+        }
     }
     .button-password-toggle {
         z-index: 5;
