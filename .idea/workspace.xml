@@ -8,14 +8,25 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_html/adv.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/adv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_html/card-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/card-company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/card-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/card-one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/lk02.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/lk02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-company.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/card-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories-ext.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories-ext.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/less/forms.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/forms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less/structura.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/structura.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inner01.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk02.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk03.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk04.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk05.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk06.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk07.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk07.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk08.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +113,7 @@
       <workItem from="1686802156337" duration="30131000" />
       <workItem from="1687068500368" duration="19442000" />
       <workItem from="1687248037742" duration="36002000" />
-      <workItem from="1687600913529" duration="894000" />
+      <workItem from="1687600913529" duration="1933000" />
     </task>
     <servers />
   </component>

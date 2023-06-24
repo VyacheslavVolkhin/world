@@ -7008,6 +7008,14 @@ select.form-input:required:invalid {
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-map {
+  display: block;
+  position: relative;
+  border-radius: 16px;
+  height: 400px;
+  height: 40rem;
+  overflow: hidden;
+}
 .frm-field-file {
   display: block;
   position: relative;
