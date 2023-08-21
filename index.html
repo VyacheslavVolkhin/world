@@ -39,6 +39,9 @@
                 <li><a href="lk06.html">ЛК 06 Написать объявление</a></li>
                 <li><a href="lk07.html">ЛК 07 Написать статью</a></li>
                 <li><a href="lk08.html">ЛК Все статьи</a></li>
+                <li>-------------------</li>
+                <li><a href="" class="js-popup-open" data-popup="popup-reg">Попап регистрации</a></li>
+                <li><a href="" class="js-popup-open" data-popup="popup-auth">Попап входа</a></li>
             </ul>
             <br><br><br><br><br>
         </div>
@@ -47,6 +50,152 @@
 
     </div>
     <!-- /wrap -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="inner-wrap">
+            <div class="footer-main-panel">
+                <div class="cnt-box">
+                    <div class="logo-wrap">
+                        <a href="" class="logo">
+                            <img src="./img/main/logo-light.svg" alt="">
+                        </a>
+                        <div class="logo-title">Поделись впечатлениями и&nbsp;опытом</div>
+                    </div>
+                    <div class="menu-wrap">
+                        <ul class="menu">
+                            <li><a href="">О нас</a></li>
+                            <li><a href="">Туры и путешествия</a></li>
+                            <li><a href="">Базы отдыха</a></li>
+                            <li><a href="">Кружок общения по интересам</a></li>
+                            <li><a href="">Партнеры</a></li>
+                            <li><a href="">Правила сайта</a></li>
+                            <li><a href="">Часто задаваемые вопросы</a></li>
+                            <li><a href="">Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+                    <div class="soc-wrap">
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc01.svg" alt="">
+                        </a>
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc02.svg" alt="">
+                        </a>
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc03.svg" alt="">
+                        </a>
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc04.svg" alt="">
+                        </a>
+                        <a href="" class="btn-action-ico button-soc">
+                            <img src="./img/icons/soc05.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-panel">
+                <div class="footer-inner-title">Планета увлечений</div>
+                <div class="cnt-box">
+                    <div class="info-wrap">2023 © ILiKE Все права защищены</div>
+                    <div class="studio-wrap">Сделано <a href="">ВебУспех</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    <!--popup reg-->
+    <div class="popup-outer-box" id="popup-reg">
+        <div class="popup-box">
+            <div class="popup-title-wrap">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-title">Регистрация</div>
+                <p>Заполните форму</p>
+            </div>
+            <div class="popup-content-wrap">
+                <form action="/" class="frm-popup">
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <div class="frm-select-content">
+                                <input type="radio" name="popup-select" id="popup01">
+                                <label for="popup01">Я просто посетитель</label>
+                            </div>
+                            <div class="frm-select-content">
+                                <input type="radio" name="popup-select" id="popup02">
+                                <label for="popup02">Я продавец</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="text" class="form-input form-input-main" placeholder="Имя*" required>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="email" class="form-input form-input-main" placeholder="Email*" required>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="password" class="form-input form-input-main" placeholder="Пароль*" required>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="password" class="form-input form-input-main" placeholder="Подтвердите пароль" required>
+                        </div>
+                    </div>
+                    <div class="frm-row-submit">
+                        <div class="frm-field field-info">Нажимая на кнопку «Зарегистрироваться», вы&nbsp;соглашаетесь с <a href="">политикой конфиденциальности</a> <a href="">пользовательским соглашением</a></div>
+                        <div class="frm-field field-button">
+                            <button type="submit" class="btn button-content">Зарегистрироваться</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/popup-reg-->
+    <!--popup auth-->
+    <div class="popup-outer-box" id="popup-auth">
+        <div class="popup-box">
+            <div class="popup-title-wrap">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-title">Вход <br>в личный кабинет</div>
+            </div>
+            <div class="popup-content-wrap">
+                <form action="/" class="frm-popup">
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="text" class="form-input form-input-main" placeholder="Имя*" required>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <input type="email" class="form-input form-input-main" placeholder="Email*" required>
+                        </div>
+                    </div>
+                    <div class="frm-row">
+                        <div class="frm-field">
+                            <div class="frm-select-content">
+                                <input type="checkbox" id="popup03">
+                                <label for="popup03">Запомнить меня</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frm-row-submit">
+                        <div class="frm-field field-button">
+                            <button type="submit" class="btn button-content">Войти</button>
+                        </div>
+                        <div class="frm-field field-info-form">Забыли пароль? <a href="" class="link-main">Напомнить</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/popup-auth-->
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
